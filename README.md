@@ -3,6 +3,7 @@
 ## 📁 Repository Contents
 
 ### Data Files
+
 | File | Description |
 |------|-------------|
 | `epcg23.zip` | Main dataset from the National Survey of College Graduates (NSCG). Contains 548 columns of survey responses including education, employment, earnings, and demographic information. |
@@ -10,6 +11,9 @@
 | `N2BAMED.csv` | Field of study mapping. Translates numeric field codes to actual field names. |
 | `Ppcg23.pdf` | PDF codebook with additional documentation and field descriptions. |
 | `2023-NSCG-21_annotated_7Aug25.pdf` | Annotated codebook for the NSCG dataset. |
+| `df_clean_99.csv.zip` | Cleaned dataset after removing top-coded earnings and capping at 99th percentile. Used as the base for all subsequent analysis. |
+| `df_final.csv.zip` | Final cleaned dataset with STEM classification, debt mapping, and calculated total debt. Contains 82,977 rows and 552 columns. |
+| `df_recent.csv.zip` | Subset of `df_final` containing only recent graduates (last 10 years of valid bachelor's degrees). Used for correlation matrix and PCA analysis. |
 
 ### Coverage Data Files (Week 2 HW)
 | File | Description |
@@ -28,6 +32,11 @@
 | `OMDS-ModB2-Week5-Nguyen-Dustin.ipynb` | HW5 |
 | `OMDS-ModB2-Week6-Nguyen-Dustin.ipynb` | HW6 |
 | `OMDS-ModB2-Week7-Nguyen-Dustin.ipynb` | HW7 |
+| `OMDS-ModB2-Week8-Nguyen-Dustin.ipynb` | HW8 |
+| `OMDS-ModB2-Week9-Nguyen-Dustin.ipynb` | HW9 |
+| `OMDS-ModB2-Week10-Nguyen-Dustin.ipynb` | HW10 |
+| `OMDS-ModB2-Week11-Nguyen-Dustin.ipynb` | HW11 |
+| `OMDS-ModB2-Week12-Nguyen-Dustin.ipynb` | HW12 |
 
 ### Other Files
 | File | Description |
